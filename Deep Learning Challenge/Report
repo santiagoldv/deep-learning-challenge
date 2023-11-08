@@ -1,0 +1,28 @@
+
+
+--** Data Preprocessing **--
+
+What variable(s) are the target(s) for your model?
+- The "IS_SUCCESFUL" column was the target of the model, pointing out as "good" the funding given from AlphabetSoup to a certain organization.
+
+What variable(s) are the features for your model?
+- The features are the rest of the columns: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS. 
+
+What variable(s) should be removed from the input data because they are neither targets nor features?
+- As the exercise directs you to remove "EIN" and "NAME" columns, they are not values that gives any predictive data, at least for this project.
+
+
+--** Compiling, Training, and Evaluating the Model **--
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- I've came across with several combinations (4 optimizations) in order to reach the accuracy of 75%. I played with nodes and layers in order to achieve the result.
+
+Were you able to achieve the target model performance?
+- Sadly no.
+
+What steps did you take in your attempts to increase model performance?
+- I tried to follow along with recomendations of challenge, I've also tried KerasTuner but take to long and not reach the desired result, maybe with ajustments through all my atttemps it might reached the desired accuracy.
+
+
+--** Summary **--
+- I highly recomend to analize data further to maybe run a KerasTuner to get closer to accuracy of 75.
